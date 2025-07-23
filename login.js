@@ -1,5 +1,3 @@
-sessionStorage.setItem("loggedIn", "true");
-
 
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("signup-form");
