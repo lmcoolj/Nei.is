@@ -10,5 +10,10 @@
 <body>
     <p>Nei.is</p>
      <button onclick="Overlay()" class="add-contact-btn">Add Contact</button>
-</body>
+<script>
+  if (!sessionStorage.getItem("loggedIn")) {
+    window.location.href = "login.html";
+  }
+</script>
+    </body>
 </html>
