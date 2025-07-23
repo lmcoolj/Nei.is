@@ -1,0 +1,25 @@
+body {
+    background: rgb(49, 49, 49);
+    color: white;
+    font-family: 'Comic Sans MS';
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.add-contact-btn {
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    background: rgb(132, 128, 128);
+    color: white;
+    border-radius: 11px ;
+    border: none;
+    
+}
+.add-contact-btn:hover {
+   border: 4px solid rgb(57, 129, 201) ;
+}
+.overlay {
+    background: black;
+}

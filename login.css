@@ -1,0 +1,111 @@
+body {
+ background:rgb(65, 65, 65) ;   
+ 
+}
+
+.container {
+background:black ;
+color: white;
+font-family: 'Comic Sans MS';
+border-radius: 15px;
+width: fit-content;
+position: absolute;
+height: fit-content;
+justify-content:baseline;
+display: flex;
+flex-direction:column;
+padding: 20px 60px;
+}
+
+
+.container2 {
+background:rgb(48, 48, 48) ;
+color: white;
+font-family: 'Comic Sans MS';
+font-weight: bold;
+font-size: 35px;
+border-radius: 15px;
+width: fit-content ;
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+padding:20px 60px;
+margin-bottom:15px ;
+margin-top: 25px;
+}
+
+.User-text {
+    font-size: 25px;
+    font-weight: 100;
+    
+}
+.form-container {
+  display: flex;
+  flex-direction: column; /* This stacks inputs top to bottom */
+  gap: 12px;               /* Optional: adds space between each input */
+  
+}
+.Email-place {
+font-size: 23px;
+font-family: 'Comic Sans MS';
+border-radius: 12px;
+background: rgb(78, 78, 78);
+color: white;
+width: fit-content;
+outline: none;
+
+}
+.Email-place:hover {
+border: 3.5px solid rgb(57, 129, 201) ;
+}
+.Email-place:focus {
+border: 3.5px solid rgb(57, 129, 201) ;
+
+}
+
+
+.Password-place {
+font-size: 23px;
+font-family: 'Comic Sans MS';
+border-radius: 12px;
+background: rgb(78, 78, 78);
+color: white;
+outline: none;
+}
+.Password-place:hover {
+    border: 3.5px solid rgb(57, 129, 201) ;
+}
+
+.Password-place:focus {
+    border: 3.5px solid rgb(57, 129, 201) ;
+}
+.DOB-place {
+font-size: 23px;
+font-family: 'Comic Sans MS';
+border-radius: 12px;
+background: rgb(78, 78, 78);
+color: white;
+outline: none;
+}
+.DOB-place:hover {
+    border: 3.5px solid rgb(57, 129, 201) ;
+}
+.DOB-place:focus {
+    border: 3.5px solid rgb(57, 129, 201) ;
+}
+.Home-signin-btn {
+    text-decoration: none;
+    color: white;
+    background: rgb(89, 89, 89);
+    border-radius: 11px;
+    padding: 15px;
+    font-size: 20px;
+    margin-top:10px ;
+    font-family: 'Comic Sans MS';
+   
+}
+.Home-signin-btn:Hover {
+   border: 3.5px solid rgb(57, 129, 201) ;
+}

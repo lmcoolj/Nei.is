@@ -1,0 +1,38 @@
+body {
+  background: none;
+  background-color: black;   
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-family: 'Comic Sans MS';
+  font-size: 50px;
+  padding: 10px;
+  flex-direction: column;
+  display:flex;
+}
+
+.Website-Description {
+    font-size: 35px ;
+    margin: -50px ;
+    text-align: center;
+
+}
+
+.create-account-btn {
+    justify-content: center;
+    align-items: center;
+    margin: 115px;
+    font-size: 37px;
+    background: rgb(56, 56, 56);
+    border-radius: 12px;
+    border: none;
+    color: white;
+    font-family: 'Comic Sans MS';
+    text-decoration: none;
+    
+}
+
+.create-account-btn:hover {
+    border: 2px solid rgb(57, 129, 201) ;
+  
+}
