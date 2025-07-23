@@ -1,4 +1,4 @@
-
+sessionStorage.setItem("loggedIn", "true");
 
 
 document.addEventListener("DOMContentLoaded", function () {
