@@ -1,4 +1,16 @@
+document.getElementById("signup").addEventListener("click", function () {
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
 
+  firebase.auth().createUserWithEmailAndPassword(email, password)
+    .then((userCredential) => {
+      // Signup successful
+      window.location.href = "home.html";
+    })
+    .catch((error) => {
+      alert("Error: " + error.message);
+    });
+});
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("signup-form");
   form.addEventListener("submit", handleFormSubmit);
