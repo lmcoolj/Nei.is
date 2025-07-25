@@ -81,20 +81,7 @@ outline: none;
 .Password-place:focus {
     border: 3.5px solid rgb(57, 129, 201) ;
 }
-.DOB-place {
-font-size: 23px;
-font-family: 'Comic Sans MS';
-border-radius: 12px;
-background: rgb(78, 78, 78);
-color: white;
-outline: none;
-}
-.DOB-place:hover {
-    border: 3.5px solid rgb(57, 129, 201) ;
-}
-.DOB-place:focus {
-    border: 3.5px solid rgb(57, 129, 201) ;
-}
+
 .Home-signin-btn {
     text-decoration: none;
     color: white;
