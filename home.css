@@ -1,3 +1,4 @@
+
 body {
     background: rgb(49, 49, 49);
     color: white;
@@ -21,5 +22,98 @@ body {
    border: 4px solid rgb(57, 129, 201) ;
 }
 .overlay {
-    background: black;
+    background: rgb(21, 21, 21);
+    border-radius: 12px;
+    font-family: 'Comic Sans MS';
+    font-size: 25px;
+   
+    align-items: center;
+}
+
+.text12 {
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+    
+
+}
+.close-ovrl-btn {
+    background: rgb(83, 83, 83);
+    border-radius: 12px;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    color:#FFFFFF;
+    border: none;
+
+}
+.close-ovrl-btn:hover {
+     border: 4px solid rgb(57, 129, 201) ;
+}
+.text13 {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 25px;
+}
+.place-Fname {
+    background-color: #858585;
+    font-size: 20px;
+    border-radius: 12px;
+    font-family: 'Comic Sans MS';
+    outline: none;
+    border: none;
+color: white;
+}
+.place-Fname:hover {
+    border: 3.5px solid rgb(57, 129, 201) ;
+    
+}
+.place-Fname:focus {
+   border: 3.5px solid rgb(57, 129, 201)
+}
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;               
+    padding-left: 15px;
+    margin-top: 20px;
+}
+.save-contact-btn {
+    background: rgb(83, 83, 83);
+    border-radius: 12px;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    color:#FFFFFF;
+    border: none;
+
+}
+.save-contact-btn:hover {
+     border: 4px solid rgb(57, 129, 201) ;
+}
+
+.contact-card {
+  font-size: 18px;           
+  background-color: #818181; 
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-width: 400px;     
+  text-align: center ;
+  align-content: auto;
+  align-items: center;
+ align-self: center;
+
+} 
+.delete-contact-btn {
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    background: rgb(85, 85, 85);
+    color: white;
+    border-radius: 11px ;
+    border: none;
+    
+}
+.delete-contact-btn:hover {
+   border: 4px solid rgb(57, 129, 201) ;
 }
