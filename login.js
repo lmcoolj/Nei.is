@@ -1,16 +1,6 @@
-document.getElementById("signup").addEventListener("click", function () {
-  const email = document.getElementById("email").value;
-  const password = document.getElementById("password").value;
+sessionStorage.setItem("loggedIn", "true");
 
-  firebase.auth().createUserWithEmailAndPassword(email, password)
-    .then((userCredential) => {
-      // Signup successful
-      window.location.href = "home.html";
-    })
-    .catch((error) => {
-      alert("Error: " + error.message);
-    });
-});
+
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("signup-form");
   form.addEventListener("submit", handleFormSubmit);
@@ -21,9 +11,9 @@ function handleFormSubmit(event) {
 
   const email = getInputValue(".Email-place");
   const password = getInputValue(".Password-place");
-  const dob = getInputValue(".DOB-place");
+  
 
-  if (isFormValid(email, password, dob)) {
+  if (isFormValid(email, password)) {
     goToHomePage();
   } else {
     showError();
@@ -35,8 +25,8 @@ function getInputValue(selector) {
   return input ? input.value.trim() : "";
 }
 
-function isFormValid(email, password, dob) {
-  return email !== "" && password !== "" && dob !== "";
+function isFormValid(email, password) {
+  return email !== "" && password !== "" 
 }
 
 function goToHomePage() {
